@@ -1,0 +1,187 @@
+#menu_tag {
+	margin: 0;
+	background-color: #333;
+	width: 100%;
+	/*height: 100px;*/
+	overflow: hidden;
+	display: flex;
+	flex-wrap: nowrap;
+	position: sticky;
+	top: 0px;
+}
+
+#menu_left {
+	background-color: white;
+	flex: 50%;
+	padding: 30px 20px;
+	text-align: center;
+
+}
+
+#KhaPahm {
+	font-size: xx-large;
+	text-decoration-line: none;
+	color: black;	
+}
+
+#menu_right {
+	width: 50%;
+	background-color: white;
+	flex: 50%;
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 20px;
+}
+
+.connect {
+	width: 33%;
+	text-align: center;
+	padding: 20px 0px 0px 10px;
+	color: black;
+	text-decoration-line: none;
+}
+
+.connect:hover {
+	color: gray;
+}
+
+#menu_left:hover {
+  font-style: italic;
+  text-shadow: 2px 2px 4px #888888;
+}
+
+#img_bia {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#img_box {
+	padding: 20px;
+	background-color: #CCCCCC;
+}
+
+
+#icon_tag {
+	padding: 5px;
+	height: 35px;
+}
+
+#float_right {
+	float: right;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #FFFFFF;
+  color: black;
+}
+
+.fa-facebook:hover {
+  opacity: 1;
+  background-color: #3B5998;
+}
+
+.fa-instagram {
+	margin-right: 50px;
+	color: black;
+}
+
+.fa-instagram:hover {
+	opacity: 1;
+  background-color: #ea4c89;
+}
+
+#avt_introduce {
+	display: flex;
+	/*justify-content: center;
+  align-items: center;*/
+}
+
+#avt_box {
+	flex: 20%;
+	padding: 50px;
+}
+
+#avt {
+	width: 100%;
+	border-radius: 50%;
+}
+
+#introduce_box{
+	flex: 70%;
+	padding: 0px 50px 50px 50px;
+	margin-top: 0px;
+}
+
+#introduce_box h2 {
+	text-align: center;
+}
+
+.par {
+	text-align: justify;
+}
+
+.sign {
+	text-align: right;
+	font-style: italic;
+	height: 5px;
+}
+
+
+footer {
+	margin: 20px 0px 0px 0px;
+	text-align: center;
+	color: black;
+	background-color: #CCCCCC;
+	padding: 15px;
+}
+
+.link {
+	color: black;
+	text-decoration-line: none;
+	font-style: italic;
+}
+
+
+@media(max-width: 800px) {
+	#menu_left {
+		flex: 100%;
+		padding: 0px;
+	}
+	#menu_right {
+		flex: 100%;
+		padding: 0px;
+		padding-bottom: 20px;
+	}
+	#menu_tag {
+		display: flex;
+		flex-wrap: wrap;
+		/*height: 200px;*/
+	}
+
+	#avt_introduce {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#avt_box {
+		flex: 70%;
+	}
+
+	#introduce_box{
+		flex: 100%;
+		padding: 0px 50px 50px 50px;
+		margin-top: 0px;
+	}
+}
